@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovariantFactory", "CovariantFactory\CovariantFactory.csproj", "{229C41A5-8083-4285-8CB0-8426AA8EB141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovariantFactory.Tests", "CovariantFactory.Tests\CovariantFactory.Tests.csproj", "{56853574-0895-4FD3-AF80-F4840544B307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CovariantFactory.UI", "CovariantFactory.UI\CovariantFactory.UI.csproj", "{287FA7AE-6EA6-4267-BA6C-E24BCA71048F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{229C41A5-8083-4285-8CB0-8426AA8EB141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229C41A5-8083-4285-8CB0-8426AA8EB141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229C41A5-8083-4285-8CB0-8426AA8EB141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229C41A5-8083-4285-8CB0-8426AA8EB141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56853574-0895-4FD3-AF80-F4840544B307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56853574-0895-4FD3-AF80-F4840544B307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56853574-0895-4FD3-AF80-F4840544B307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56853574-0895-4FD3-AF80-F4840544B307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287FA7AE-6EA6-4267-BA6C-E24BCA71048F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287FA7AE-6EA6-4267-BA6C-E24BCA71048F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287FA7AE-6EA6-4267-BA6C-E24BCA71048F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287FA7AE-6EA6-4267-BA6C-E24BCA71048F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
