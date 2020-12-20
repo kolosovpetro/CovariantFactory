@@ -13,8 +13,8 @@ namespace CovariantFactory.UI
             dog.SayName();
             dog.SayAge();
             
-            ICovariantFactory<IAnimal> wolfFactory = new CovariantFactory<Wolf>();
-            var wolf = wolfFactory.CreateInstance("Drago", 5);
+            ICovariantFactory<Dog> wolfFactory = new CovariantFactory<Wolf>();
+            var wolf = wolfFactory.CreateInstance("Bamboo", 5);
             wolf.SayName();
             wolf.SayAge();
         }

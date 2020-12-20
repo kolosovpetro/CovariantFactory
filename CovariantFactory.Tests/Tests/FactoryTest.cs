@@ -22,11 +22,11 @@ namespace CovariantFactory.Tests.Tests
         [Test]
         public void Wolf_Factory_Test()
         {
-            ICovariantFactory<IAnimal> factory = new CovariantFactory<Wolf>();
-            var wolf = factory.CreateInstance("Kram", 5);
+            ICovariantFactory<Dog> factory = new CovariantFactory<Wolf>();
+            var wolf = factory.CreateInstance("Bamboo", 5);
             (wolf is Wolf).Should().BeTrue();
             wolf.GetType().Should().Be(typeof(Wolf));
-            wolf.Name.Should().Be("Kram");
+            wolf.Name.Should().Be("Bamboo");
             wolf.Age.Should().Be(5);
         }
     }
